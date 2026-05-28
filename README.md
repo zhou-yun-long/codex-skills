@@ -63,6 +63,14 @@ User-facing documentation and diagrams should live under `docs/`.
 - `scripts/opentest/`: helper scripts to copy into project `scripts/`.
 - `examples/opentest-demo/`: minimal demo requirement for smoke testing an installation.
 
+Main automated command:
+
+```text
+/opentest-run-all <requirement file or folder>
+```
+
+Use step-by-step commands when you want manual review between stages.
+
 ## Sync Notes
 
 When adding or updating a skill, copy the skill folder into `skills/<skill-name>/`, then commit and push this repository.
